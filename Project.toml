@@ -1,0 +1,13 @@
+name = "ETPart"
+uuid = "889f53a6-76ba-41d8-a760-0a12c8ab2e52"
+authors = ["Thomas Wutzler <progtw@arcor.de> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
